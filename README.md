@@ -62,7 +62,7 @@ Included with the module download/install is a test.js file. Running from the pr
 
 Included tests are `testProjectRequirements()` and `testEqualityWithValue(value)` where the supplied object will  be tested with strict equivalence.
 
-
+`shouldFail("nope")` will make sure the try/catch block does not break the abstraction
 
 
 
