@@ -32,7 +32,7 @@ Invoke the module constuctor with `dotPathModule('trunk.branch.attribute')`. Thi
 
 Once you've initialized your object, you can search for an object match as defined in the string.
 
-invoking the result with `dotPathModule({trunk : { branch : { attribute: 'hooray!' }}})`
+You can obtain the value of the search with `dotPathModule({trunk : { branch : { attribute: 'hooray!' }}})`
 
 
 ### Putting it all together
