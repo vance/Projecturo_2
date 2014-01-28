@@ -21,7 +21,9 @@ npm install -g vance-dot-path-search
 
 ### Running with browserify
 
-An alternate to running in REPL might be to install browserfy and loading test.html in the browser
+An alternate to running in REPL might be to install browserfy and loading test.html in the browser. You can test quickly with test.html. 
+
+browserify dotPathTests.js -o bundleDotPath.js
 
 
 ### Initializing a Search String
