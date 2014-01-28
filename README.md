@@ -6,6 +6,10 @@ Projecturo_2
 A lightweight implimentation of dot syntax string searching as an NPM installable module.
 
 
+### Project History
+
+This project was originally at https://gist.github.com/vance/706b58081f55eeacd1b4 this was not pulled directly to avoid future naming convensions with NPM (as this was unkown at the time for the author).
+
 
 ### Installing with NPM
 
@@ -58,7 +62,7 @@ Included with the module download/install is a test.js file. Running from the pr
 
 Included tests are `testProjectRequirements()` and `testEqualityWithValue(value)` where the supplied object will  be tested with strict equivalence.
 
-
+`shouldFail("nope")` will make sure the try/catch block does not break the abstraction. As long as you don't supply `yep` as the parameter, it will throw an exception when executed.
 
 
 
