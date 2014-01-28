@@ -1,0 +1,16 @@
+﻿{
+  "author": "Vance Feldman ",
+  "name": "vance-dot-path-search",
+  "description": "Seach a string with dot syntax using an object",
+  "version": "0.1.4",
+  "repository": {
+    "url": ""
+  },
+  "main": "./main",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
