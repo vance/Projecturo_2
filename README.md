@@ -22,7 +22,11 @@ An alternate to running in REPL might be to install browserfy and loading test.h
 
 ### Initializing a Search String
 
-invoke the module constuctor with `dotPathModule('trunk.branch.key')`
+Invoke the module constuctor with `dotPathModule('trunk.branch.key')`. You can then search for a particular key/value by invoking it with an object `dotPathModule({trunk : { branch : { key: 'hooray!' }}})`
+
+
+
+
 
 ### Searching on object
 
