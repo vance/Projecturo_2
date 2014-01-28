@@ -2,7 +2,10 @@
 // big cleanup. You don't ALSO have to follow module pattern!
 
 var dotPathModule = function (stringPath) {
-    
+
+    // old implimentation
+
+    /*
     return function (obj) {
 
         var searchString = stringPath;
@@ -24,7 +27,40 @@ var dotPathModule = function (stringPath) {
         }
 
         return returnObj;
-    }
+    }*/
+
+    // bonus implimentation
+
+    
+        return function (object) {
+
+            var searchString = stringPath;
+            var selectors = searchString.split('.')
+
+
+            console.log("Search string: " + selectors);
+
+         
+
+            function indexer(obj, i) {               
+                return obj[i]
+            }
+
+            var returnObject = null;
+
+            try{
+                returnObject = selectors.reduce(indexer, object)
+            } catch (e) {
+                returnObject = undefined;
+            }
+
+            console.log(returnObject);
+
+            return returnObject;
+
+        }
+
+
 
 }
 

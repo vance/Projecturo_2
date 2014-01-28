@@ -30,10 +30,26 @@ var testEqualityWithValue = function (testValue) {
   
 }
 
-testProjectRequirements()
-console.log( testEqualityWithValue("chocolate jetzt") )
 
-// 
-console.log( testEqualityWithValue(9));
+var shouldFail = function (testValue) {
+
+    var find = dotpath('part.key.attribute')
+
+    var find = dotpath('part.key.attribute')
+
+    var found = find({ part: { key: { attribute: "yep" } } })
+
+
+    assert.strictEqual(found, testValue)
+
+}
+
+testProjectRequirements()
+
+console.log(testEqualityWithValue("chocolate"))
+
+console.log(testEqualityWithValue(9))
+
+shouldFail("nope");
 
 
