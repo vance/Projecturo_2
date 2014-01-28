@@ -1,4 +1,24 @@
 Projecturo_2
 ============
 
-Project_2 toxic solvent
+Installing with NPM
+
+
+
+
+Running with browserify
+
+
+
+
+Initializing a Search String
+
+
+
+Searching on object
+
+
+
+Testing the dotPathModule
+
+
