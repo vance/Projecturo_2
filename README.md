@@ -6,6 +6,10 @@ Projecturo_2
 A lightweight implimentation of dot syntax string searching as an NPM installable module.
 
 
+### Project History
+
+This project was originally at https://gist.github.com/vance/706b58081f55eeacd1b4 this was not pulled directly to avoid future naming convensions with NPM (as this was unkown at the time for the author).
+
 
 ### Installing with NPM
 
